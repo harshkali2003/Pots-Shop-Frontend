@@ -48,7 +48,7 @@ export default function NavBar() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  to="/product"
                   className="block px-4 py-2 hover:bg-blue-700 rounded-md"
                 >
                   Products
@@ -66,6 +66,22 @@ export default function NavBar() {
                   className="block px-4 py-2 hover:bg-blue-700 rounded-md"
                 >
                   Contact
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/profile"
+                  className="block px-4 py-2 hover:bg-blue-700 rounded-md"
+                >
+                  Profile
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/login"
+                  className="block px-4 py-2 hover:bg-blue-700 rounded-md"
+                >
+                  Log In
                 </Link>
               </li>
             </ul>

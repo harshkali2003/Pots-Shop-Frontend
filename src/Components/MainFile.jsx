@@ -19,17 +19,17 @@ export default function MainFile() {
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Our Products</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white shadow rounded-lg p-6 text-center">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Dinner_plates.jpg" alt="Plates" className="mx-auto mb-4" />
+              <img src="https://mudkart.com/cdn/shop/files/262.png?v=1716971514 " alt="Plates" className="mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-700">Plates</h3>
               <p className="text-gray-600 mt-2">Elegant designs to match your table setup.</p>
             </div>
             <div className="bg-white shadow rounded-lg p-6 text-center">
-              <img src="https://nestasia.in/cdn/shop/files/Greencoffeemugs_1.jpg?v=1699363178" alt="Cups" className="mx-auto mb-4" />
+              <img src="https://5.imimg.com/data5/SELLER/Default/2021/1/MG/ZA/FG/7752468/smwn103-1-500x500.JPG " alt="Cups" className="mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-700">Cups</h3>
               <p className="text-gray-600 mt-2">Perfectly crafted for your favorite beverages.</p>
             </div>
             <div className="bg-white shadow rounded-lg p-6 text-center">
-              <img src="https://www.greenheirloom.in/cdn/shop/products/WhatsAppImage2022-10-08at10.18.38AM_bdf091ba-6369-4eb9-acca-c1872e0e9eed_1035x.jpg?v=1702963393" alt="Bowls" className="mx-auto mb-4" />
+              <img src="https://m.media-amazon.com/images/I/41AryE773KL.jpg" alt="Bowls" className="mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-700">Bowls</h3>
               <p className="text-gray-600 mt-2">Stylish and versatile for every meal.</p>
             </div>

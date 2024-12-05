@@ -32,7 +32,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row items-center md:space-x-10">
             <div className="md:w-1/2 mb-6 md:mb-0">
               <img
-                src="https://source.unsplash.com/600x400/?crockery,tableware"
+                src="https://media.istockphoto.com/id/1256476283/photo/from-a-vision-to-a-mission-hand-turns-dice-and-changes-the-word-vision-to-mission.jpg?s=612x612&w=0&k=20&c=6R_Cvlj4_eA2hwNpvVVhaN6-2qtXc9ZyosRBBh3DzzE="
                 alt="Mission"
                 className="rounded-lg shadow-lg"
               />
@@ -55,8 +55,8 @@ export default function About() {
           <p className="text-gray-600 max-w-2xl mx-auto mb-10">
             Behind every piece of our crockery is a team of passionate individuals dedicated to quality and design.
           </p>
-          <div className="grid md:grid-cols-3 gap-8">
-            {["Alice Johnson", "Michael Lee", "Sophia Martinez"].map((name, idx) => (
+          <div className="grid md:grid-cols-2 gap-8">
+            {["Nidhi Kumari", "Balram"].map((name, idx) => (
               <div
                 key={idx}
                 className="bg-gray-100 rounded-lg shadow-lg p-6 text-center"
@@ -74,28 +74,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">Gallery</h2>
-          <p className="text-gray-600 text-center max-w-2xl mx-auto mb-10">
-            Explore the beauty of our crockery collection and the moments it enhances.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {Array(6)
-              .fill()
-              .map((_, idx) => (
-                <div key={idx} className="overflow-hidden rounded-lg shadow-lg">
-                  <img
-                    src={`https://source.unsplash.com/600x400/?crockery,design&${idx}`}
-                    alt="Crockery"
-                    className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-              ))}
-          </div>
-        </div>
-      </section>
+     
 
       {/* Footer Call to Action */}
       <section className="py-12 bg-gray-800 text-white">
